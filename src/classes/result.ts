@@ -1,9 +1,9 @@
-import { AnimalPlural } from "./animalPlural";
-import { AnimalSingular } from "./animalSingular";
-import { SizePlural } from "./sizePlural";
-import { SizeSingular } from "./sizeSingular";
-import { ColorSingular } from "./colorSingular";
-import { ColorsPlural } from "./colorPlural";
+import { AnimalPlural } from "./strategies/animalPlural";
+import { AnimalSingular } from "./strategies/animalSingular";
+import { SizePlural } from "./strategies/sizePlural";
+import { SizeSingular } from "./strategies/sizeSingular";
+import { ColorSingular } from "./strategies/colorSingular";
+import { ColorsPlural } from "./strategies/colorPlural";
 import { Song } from "./song";
 
 export class Result {
